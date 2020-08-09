@@ -1,6 +1,7 @@
-body {
+body,
+button {
 	margin: 0;
-	font-size: 30px;
+	padding: 0;
 }
 .main {
 	display: flex;
@@ -27,6 +28,15 @@ body {
 	border: 1px solid gray;
 }
 
+.menuBtn {
+	border: none;
+}
+
+.menuBtnFnt {
+	background-color: lightgray;
+	padding: 10px;
+}
+
 .menuList {
 	display: flex;
 	flex-direction: column;
@@ -38,15 +48,6 @@ body {
 
 .hidden {
 	display: none;
-}
-
-.menuBtn {
-	height: 30px;
-	width: 30px;
-	background-image: url("/images/threelines.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .link {
@@ -64,6 +65,7 @@ body {
 	text-align: left;
 	margin-top: 100px;
 	padding-left: 20px;
+	font-size: 30px;
 }
 
 .letters {
