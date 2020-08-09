@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	font-size: 30px;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid gray;
+	width: 35%;
+	height: 100vh;
+}
+
+.menuContainer {
+	width: 35%;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.menuBtnDiv {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	background-color: lightgray;
+	border: 1px solid gray;
+}
+
+.menuList {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 2;
+	border: 1px solid gray;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.hidden {
+	display: none;
+}
+
+.menuBtn {
+	height: 30px;
+	width: 30px;
+	background-image: url("/images/threelines.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.link {
+	text-decoration: underline;
+	border: 0;
+	width: 90px;
+	margin: 10px;
+	background-color: white;
+	font-family: "Antic Slab", serif;
+	font-size: 20px;
+}
+
+.box {
+	align-items: center;
+	text-align: left;
+	margin-top: 100px;
+	padding-left: 20px;
+}
+
+.letters {
+	font-family: "Antic Slab", serif;
+}
